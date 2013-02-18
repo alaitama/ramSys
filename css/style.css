@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #FCFAFB;
+    font-family: Helvetica,Verdana, sans-serif;
+}
+
+body {
+    background-color: #D59859; /*E9DDC0*/
+
+}
+
+#header {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+	height: 38px;
+	top: 0px;
+	
+	background-color: #425C81;
+	color: #FCFAFB;
+	
+	font-family: Helvetica,Verdana, sans-serif;
+	
+	line-height: 38px; /*For align text in middle div */
+    
+    -moz-box-shadow:3px 3px 5px #111;
+    -webkit-box-shadow:3px 3px 5px #111;
+    box-shadow:3px 3px 5px #111;
+}
+
+
+.top_title {
+	font-size: 24px;
+	
+	/*For align text in middle div, concrete for not exit the div...sample in 
+		http://stackoverflow.com/questions/8865458/how-to-align-text-vertical-center-in-div-with-css	
+	*/
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal; 
+    
+    font-weight: bold;
+    
+}
+
+.top_title a {
+    text-decoration:none;
+}
+
+.top_title a:hover{
+    color: #D3D1D2;
+}
+
+.top_menu {
+    float: right;
+    margin-right: 150px;
+    display: inline;
+    
+    height: 38px;
+    
+    /*border: 1px solid #000;*/
+}
+
+.top_menu ul {
+	float:right;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+    display:inline;
+    
+    border-left: 1px solid #FFF;
+    height: 38px;
+}
+
+.top_menu li {
+	display:inline;
+    
+    border-left: 1px solid #000;
+    height: 38px;
+    
+    line-height: 38px; 
+}
+
+.top_menu a {
+	float:left;
+	width:6em;
+	text-decoration:none;
+	/*
+    color:white;
+	background-color:purple;
+    */
+	padding:0.0em 0.6em;
+	border-right:1px solid white;
+}
+
+.top_menu a:hover {
+
+    background-color: #620C67;
+}
+
+
+
+
+
+#mainwrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*
+    height: 300px;
+    */
+    width: 780px;
+    
+    background-color: #5EA032;
+
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    
+    
+    position: relative;
+    border: 1px solid #000;
+}
+
+#content {
+    width: 100%;
+    margin-top: 10px;
+    padding: auto;
+    
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#float_title {
+    position:absolute;
+    top: 30px;
+    right: 50px;
+    
+    font-family: Courier New, console;
+    font-size: 50px;
+    font-weight: bold;
+    color: #425C81;
+}
+
