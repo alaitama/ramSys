@@ -1,11 +1,65 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    
-    background-color: #D59859;
+    background-color: #D59859; /*E9DDC0*/
 
 }
+
+#header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	height: 38px;
+	top: 0px;
+	
+	background-color: #425C81;
+	color: #FCFAFB;
+	
+	font-family: Helvetica,Verdana, sans-serif;
+	
+	line-height: 38px; /*For align text in middle div */
+}
+
+#top_title, span {
+	font-size: 24px;
+	
+	/*For align text in middle div, concrete for not exit the div...sample in 
+		http://stackoverflow.com/questions/8865458/how-to-align-text-vertical-center-in-div-with-css	
+	*/
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;  
+}
+
+#top_menu, ul {
+	float:right;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#top_menu, li {
+	display:inline;
+}
+
+#top_menu, a {
+	float:left;
+	width:6em;
+	text-decoration:none;
+	color:white;
+	background-color:purple;
+	padding:0.2em 0.6em;
+	border-right:1px solid white;
+}
+
+
+
+
 
 #mainwrap {
     margin: auto;
@@ -19,15 +73,7 @@ body {
     border-radius: 15px 15px 0px 0px;
 }
 
-#header {
-    margin: 0px;
-    padding: 0px;
-    
-    width: 100%;
-    
-    position: relative;
 
-}
 
 #title {
     position:absolute;
