@@ -1,0 +1,42 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: #D59859;
+
+}
+
+#mainwrap {
+    margin: auto;
+    height: 300px;
+    width: 780px;
+
+    background-color: #5EA032;
+
+    -moz-border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius:40px 40px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px;
+    
+    width: 100%;
+    
+    position: relative;
+
+}
+
+#title {
+    position:absolute;
+    top: 30px;
+    right: 100px;
+    
+    font-family: Courier New, console;
+    font-size: 50px;
+    font-weight: bold;
+    color: #425C81;
+}
+
